@@ -16,7 +16,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String ServerIP = "tcp://223.195.194.41:1883";
+    private String ServerIP = "";
     private String TOPIC = "SF1";
 
     private MqttClient mqttClient = null;
